@@ -4,6 +4,8 @@
   --third-text-color: #ffffff;
   --accent-color: #2196f3;
   --logo-top-color: #000000;
+  --filter-btn-color: #f5f4fa;
+  --address-tex-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -171,7 +173,7 @@ body {
 }
 
 .address-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-tex-color);
 
   font-style: normal;
   font-size: 14px;
@@ -183,7 +185,7 @@ body {
 
 /* кнопки фильтра */
 .filter-btn {
-  background-color: #f5f4fa;
+  background-color: var(--filter-btn-color);
   color: var(--primary-text-color);
 
   font-family: inherit;
