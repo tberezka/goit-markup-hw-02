@@ -115,6 +115,7 @@ body {
   color: var(--third-text-color);
   background-color: var(--accent-color);
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -185,6 +186,7 @@ body {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
