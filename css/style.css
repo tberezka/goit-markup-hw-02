@@ -8,8 +8,32 @@
   --address-tex-color: rgba(255, 255, 255, 0.6);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -103,8 +127,11 @@ body {
 }
 
 /* Hero */
+
 .hero-title {
-  color: var(--third-text-color);
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -112,10 +139,18 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.hero-btn {
   color: var(--third-text-color);
+}
+
+.hero-btn {
+  display: block;
+  min-width: 200px;
   background-color: var(--accent-color);
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-family: inherit;
   font-weight: 700;
@@ -123,8 +158,7 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-
-  cursor: pointer;
+  color: var(--third-text-color);
 }
 
 /* преимущества */
@@ -194,7 +228,6 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
